@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignConnect - Learn Sign Language</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <span class="logo">SignConnect</span>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start">Practice Signs</a></li>
+                <li><a href="/start_alphabet">Learn Alphabet</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Welcome to SignConnect</h1>
+        <p class="subtitle">Your interactive platform for learning American Sign Language (ASL)</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Real-time Feedback</h3>
+                <p>Our system analyzes your hand gestures and provides instant feedback to help you learn proper ASL signs.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Comprehensive Learning</h3>
+                <p>From basic alphabet to common phrases, we cover all aspects of ASL to make you proficient.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Interactive Practice</h3>
+                <p>Engage with our camera-based exercises that make learning fun and effective.</p>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="/start">
+                <button class="primary-btn">Start Practicing Common Signs</button>
+            </a>
+            <a href="/start_alphabet">
+                <button class="secondary-btn">Learn ASL Alphabet</button>
+            </a>
+        </div>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>How SignConnect Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Enable Camera Access</h3>
+                    <p>When you start a lesson, allow the browser to access your webcam. We process everything locally - your video never leaves your device.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Follow On-Screen Prompts</h3>
+                    <p>The system will show you which sign to make. Position your hands clearly in the camera view.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Instant Feedback</h3>
+                    <p>Our AI analyzes your hand shapes and movements, providing corrections and encouragement.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Track Your Progress</h3>
+                    <p>Earn badges and track your learning journey as you master new signs each day.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="educational-content">
+            <h2>Why Learn Sign Language?</h2>
+            <p>American Sign Language (ASL) is a complete, natural language used by the Deaf community in the United States and English-speaking parts of Canada. Learning ASL:</p>
+            <ul class="benefits-list">
+                <li>Promotes inclusion and accessibility</li>
+                <li>Enhances cognitive abilities and spatial awareness</li>
+                <li>Opens new career opportunities</li>
+                <li>Strengthens communication skills</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 SignConnect. All rights reserved.</p>
+            <p>Made with ❤️ to bridge communication gaps</p>
+        </div>
+    </footer>
+</body>
+</html>
